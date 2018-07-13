@@ -25,7 +25,7 @@ class Owner
  end
  
  def say_species
-   puts "I am a #{species}"
+   puts "I am a #{@species}"
  end
  
  def name=(name)
@@ -40,5 +40,5 @@ class Owner
    "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end
  end
- puts 
+ 
  
