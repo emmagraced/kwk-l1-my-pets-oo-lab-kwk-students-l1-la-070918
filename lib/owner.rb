@@ -4,7 +4,6 @@ class Owner
  @species = species
  @pets = {:fishes => [], :dogs => [], :cats => []}
  end
- 
  def pets
    @pets = pets
  end
